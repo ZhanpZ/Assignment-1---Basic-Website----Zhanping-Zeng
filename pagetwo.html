@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>
-            This is the title for the second page
-        </h1>
-        <h3>
-            This is the sub-title for the second page
-        </h3>
-        <p>
-            This is the paragraph element for the second page
-        </p>
-        <p>Back to HomePage</p>
-        <a href="index.html">HomePage</a>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>This is the title for the second page</h1>
+    <h3>This is the sub-title for the second page</h3>
+    <p>This is the paragraph element for the second page</p>
+    <p>Back to HomePage</p>
+    <a href="index.html">HomePage</a>
 
-        <table>
-            <tr>
-                <th>Unit-00</th>
-                <th>Unit-01</th>
-                <th>Unit-02</th>
-              </tr>
-        </table>
+    <table>
+      <tr>
+        <th>Unit-00</th>
+        <th>Unit-01</th>
+        <th>Unit-02</th>
+      </tr>
+    </table>
 
-        <figure>
-            <img src="eva00.png" alt="eva-unit-00" style="width:33%">
-            <figcaption>Fig.1 - Unit-00</figcaption>
-        </figure>
-        <figure>
-            <img src="eva01.png" alt="eva-unit-01" style="width:33%">
-            <figcaption>Fig.2 - Unit-01</figcaption>
-        </figure>
-        <figure>
-            <img src="eva02.png" alt="eva-unit-02" style="width:33%">
-            <figcaption>Fig.3 - Unit-02</figcaption>
-        </figure>
-    </body>
+    <button id="myButton">Click Me</button>
+
+    <figure>
+      <img src="eva00.png" alt="eva-unit-00" style="width: 33%" />
+      <figcaption>Fig.1 - Unit-00</figcaption>
+    </figure>
+    <figure>
+      <img src="eva01.png" alt="eva-unit-01" style="width: 33%" />
+      <figcaption>Fig.2 - Unit-01</figcaption>
+    </figure>
+    <figure>
+      <img src="eva02.png" alt="eva-unit-02" style="width: 33%" />
+      <figcaption>Fig.3 - Unit-02</figcaption>
+    </figure>
+
+    <script>
+      var button = document.getElementById("myButton");
+      button.addEventListener("click", buttonClicked);
+    </script>
+  </body>
 </html>

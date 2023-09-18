@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <script src="script.js"></script>
+    </head>
     <body>
         <h1>
             This is the title for the first page
@@ -21,6 +24,8 @@
               </tr>
         </table>
 
+        <button id="myButton">Click Me</button>
+
         <figure>
             <img src="grass.png" alt="grass" style="width:33%">
             <figcaption>Fig.1 - Treecko</figcaption>
@@ -33,5 +38,11 @@
             <img src="water.png" alt="water" style="width:33%">
             <figcaption>Fig.3 - Mudkip</figcaption>
         </figure>
+
+        <script>
+            var button = document.getElementById("myButton");
+            button.addEventListener("click", buttonClickedFirst);
+        </script>
+
     </body>
 </html>
